@@ -41,6 +41,12 @@ body {
     height: auto !important;
 }
 
+#workexperiencetwo,
+#workexperiencetwo .fp-slide,
+#workexperiencetwo .fp-tableCell{
+    height: auto !important;
+}
+
 footer,
 footer .fp-slide,
 footer .fp-tableCell {
@@ -62,10 +68,16 @@ h5 {
 /* end all heading */
 
 /* start all section */
-#work,
+#work{
+    padding: 6%;
+}
 #about,
 /* #portfolio, */
 #workexperience,
+#workexperiencetwo{
+    margin: 0%;
+    padding: 0%;
+}
 #contact {
     padding-top: 100px;
     padding-bottom: 120px;
