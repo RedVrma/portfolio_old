@@ -37,13 +37,13 @@ body {
 
 #workexperience,
 #workexperience .fp-slide,
-#workexperience .fp-tableCell{
+#workexperience .fp-tableCell {
     height: auto !important;
 }
 
 #workexperiencetwo,
 #workexperiencetwo .fp-slide,
-#workexperiencetwo .fp-tableCell{
+#workexperiencetwo .fp-tableCell {
     height: auto !important;
 }
 
@@ -68,16 +68,18 @@ h5 {
 /* end all heading */
 
 /* start all section */
-#work{
+#work {
     padding: 6%;
 }
+
 #about,
 /* #portfolio, */
 #workexperience,
-#workexperiencetwo{
+#workexperiencetwo {
     margin: 0%;
     padding: 0%;
 }
+
 #contact {
     padding-top: 100px;
     padding-bottom: 120px;
@@ -495,4 +497,23 @@ li {
     font-size: 16px;
     margin-top: 20px;
     text-align: right;
+}
+
+.cardsmall {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 6px;
+    margin: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+.cardsmall:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
